@@ -1,0 +1,15 @@
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\bin\Debug\net10.0\Ejercicio01.exe
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\bin\Debug\net10.0\Ejercicio01.deps.json
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\bin\Debug\net10.0\Ejercicio01.runtimeconfig.json
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\bin\Debug\net10.0\Ejercicio01.dll
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\bin\Debug\net10.0\Ejercicio01.pdb
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\obj\Debug\net10.0\Ejercicio01.GeneratedMSBuildEditorConfig.editorconfig
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\obj\Debug\net10.0\Ejercicio01.AssemblyInfoInputs.cache
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\obj\Debug\net10.0\Ejercicio01.AssemblyInfo.cs
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\obj\Debug\net10.0\Ejercicio01.csproj.CoreCompileInputs.cache
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\obj\Debug\net10.0\Ejercicio01.sourcelink.json
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\obj\Debug\net10.0\Ejercicio01.dll
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\obj\Debug\net10.0\refint\Ejercicio01.dll
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\obj\Debug\net10.0\Ejercicio01.pdb
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\obj\Debug\net10.0\Ejercicio01.genruntimeconfig.cache
+C:\GT3RS\Guia-ejercicios-1pac2026-POO\ejercicios\Ejercicio01\obj\Debug\net10.0\ref\Ejercicio01.dll
