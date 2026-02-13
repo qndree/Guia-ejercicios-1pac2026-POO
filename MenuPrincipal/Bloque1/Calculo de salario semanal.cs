@@ -12,6 +12,7 @@ namespace MenuPrincipal.Bloque1
             bool salir = false;
             while (!salir)
             {
+                Console.Clear();
                 Console.WriteLine("\n=== Ejercicio 8: Calculo de salario semanal ===");
 
                 Console.WriteLine("Ingrese el número de horas trabajadas en la semana: ");

@@ -11,6 +11,7 @@ namespace MenuPrincipal.Bloque1
     {
         while (true)
         {
+            Console.Clear();
             Console.WriteLine("\n=== Ejercicio 2: Menu de conversion de temperaturas ===");
             
             Console.WriteLine("1 - Celsius a Fahrenheit");

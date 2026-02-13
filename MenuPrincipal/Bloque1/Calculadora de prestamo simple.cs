@@ -12,6 +12,7 @@ namespace MenuPrincipal.Bloque1
         bool salir = false;
         while (!salir)
         {
+        Console.Clear();    
         Console.WriteLine("\n===Ejercicio 4: Calculadora de prestamo simple ===");
         // Solicito al usuario el monto del préstamo, la tasa de interés anual y el plazo en meses uso mayormente double ya que se usan decimales
         //la estructura es sencilla y basica financiera

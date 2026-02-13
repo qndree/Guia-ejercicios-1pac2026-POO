@@ -12,6 +12,7 @@ namespace MenuPrincipal.Bloque2
             bool salir = false;
             while (!salir)
             {
+                Console.Clear();
                 Console.WriteLine("\n=== Ejercicio 11: Calculadora de descuentos ===");
 
                 Console.WriteLine("Ingrese el monto de la compra:");

@@ -12,6 +12,7 @@ namespace MenuPrincipal.Bloque2
             bool salir = false;
             while (!salir)
             {
+                Console.Clear();
                 // Saldo de ejemplo en el cajero automático
                 int saldo = 5000;
 

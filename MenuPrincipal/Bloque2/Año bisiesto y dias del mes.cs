@@ -12,6 +12,7 @@ namespace MenuPrincipal.Bloque2
             bool salir = false;
             while (!salir)
             {
+            Console.Clear();    
             Console.WriteLine("\n=== Ejercicio 12: Año bisiesto y días del mes ===");
 
             Console.Write("Ingrese el año: ");

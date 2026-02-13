@@ -12,6 +12,7 @@ namespace MenuPrincipal.Bloque1
             bool salir = false;
             while (!salir)
             {
+                Console.Clear();
                 Console.WriteLine("\n=== Ejercicio 7: Conversión de unidades de almacenamiento ===");
                 Console.WriteLine("Seleccione la conversión que desea realizar:");
                 Console.WriteLine("1 - Bytes a Kilobytes");

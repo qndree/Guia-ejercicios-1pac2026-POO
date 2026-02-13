@@ -12,6 +12,7 @@ namespace MenuPrincipal.Bloque2
             bool salir = false;
             while (!salir)
             {
+            Console.Clear();    
             Console.WriteLine("\n=== Ejercicio 13: Validador de fecha ===");
 
             Console.Write("Ingrese el día: ");

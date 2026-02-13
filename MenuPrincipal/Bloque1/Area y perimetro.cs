@@ -13,6 +13,7 @@ namespace MenuPrincipal.Bloque1
             bool salir = false;
             while (!salir)
             {
+                Console.Clear();
                 Console.WriteLine("\n=== Ejercicio 6: Área y perímetro ===");
                 Console.WriteLine("1 - Círculo");
                 Console.WriteLine("2 - Triángulo");
@@ -86,8 +87,6 @@ namespace MenuPrincipal.Bloque1
             double perimetro = baseMayor + baseMenor + lado1 + lado2;
             MostrarResultados(area, perimetro);
         }
-
-        // ===== UTILIDADES =====
 
         static double LeerPositivo(string mensaje)
         {

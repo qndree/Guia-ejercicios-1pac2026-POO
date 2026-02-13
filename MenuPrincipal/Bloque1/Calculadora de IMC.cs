@@ -12,6 +12,7 @@ namespace MenuPrincipal.Bloque1
         bool salir = false;
         while (!salir)
         {
+        Console.Clear();    
         Console.WriteLine("\n=== Ejercicio 1: Calculadora de IMC ===");
 
         Console.Write("Ingrese su peso en kg: ");

@@ -12,6 +12,7 @@ namespace MenuPrincipal.Bloque1
             bool salir = false;
             while (!salir)
             {
+                Console.Clear();
                 Console.WriteLine("\n=== Ejercicio 5: Tiempo transcurrido ===");
 
                 Console.WriteLine("Ingrese la hora de inicio (formato Hora:minuto:segundo): ");

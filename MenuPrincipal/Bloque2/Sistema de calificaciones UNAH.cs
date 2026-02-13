@@ -12,6 +12,7 @@ namespace MenuPrincipal.Bloque2
         bool salir = false;
         while(!salir)
         {
+            Console.Clear();
             Console.WriteLine("\n=== Ejercicio 10: Sistema de calificaciones UNAH ===");
             Console.WriteLine("Ingrese la calificación del estudiante (0-100):");
             double calificacion = Convert.ToDouble(Console.ReadLine());

@@ -12,6 +12,7 @@ namespace MenuPrincipal.Bloque2
             bool salir = false;
             while (!salir)
             {
+                Console.Clear();
                 Console.WriteLine("\n=== Ejercicio 9: Clasificación de triángulos ===");
                 
                 Console.WriteLine("Ingrese el primer lado del triángulo:");

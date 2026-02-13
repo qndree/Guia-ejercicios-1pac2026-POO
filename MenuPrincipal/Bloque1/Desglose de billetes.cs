@@ -12,6 +12,7 @@ namespace MenuPrincipal.Bloque1
         bool salir = false;
         while (!salir)
         {
+        Console.Clear();    
         Console.WriteLine("\n=== Ejercicio 3: Desglose de billetes ===");
          
         Console.Write("Ingrese el monto a desglosar: ");

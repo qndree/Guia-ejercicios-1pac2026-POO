@@ -1,6 +1,8 @@
 ﻿using MenuPrincipal.Bloque1;
 using MenuPrincipal.Bloque2;
-
+using MenuPrincipal.Bloque3;
+using MenuPrincipal.Bloque4;
+using MenuPrincipal.Bloque5;
 class Program
 {
     static void Main()
@@ -8,7 +10,9 @@ class Program
         while (true)
         {
             // Este es el menu principal donde se pueden seleccionar los ejercicios a ejecutar
-            Console.WriteLine("\n=== Menú de ejercicios ===");
+            Console.Clear();
+            
+            Console.WriteLine("=== Menú de ejercicios ===");
             Console.WriteLine("1 - Calculadora de IMC");
             Console.WriteLine("2 - Menu de conversion de temperaturas");
             Console.WriteLine("3 - Desglose de billetes");
@@ -23,10 +27,28 @@ class Program
             Console.WriteLine("12 - Año bisiesto y días del mes");
             Console.WriteLine("13 - Validador de fecha");
             Console.WriteLine("14 - Cajero automático");
+            Console.WriteLine("15 - Tabla de multiplicar extendida");
+            Console.WriteLine("16 - Numeros primos en rango");
+            Console.WriteLine("17 - Serie de Fibonacco");
+            Console.WriteLine("18 - Factorial y Combinaciones");
+            Console.WriteLine("19 - Juego de adivinanza");
+            Console.WriteLine("20 - Validacion de contraseña");
+            Console.WriteLine("21 - Patrón de asteriscos");
+            Console.WriteLine("22 - Calculadora con menu");
+            Console.WriteLine("23 - Estadisticas de calificaciones");
+            Console.WriteLine("24 - Busqueda y ordenamiento");
+            Console.WriteLine("25 - Rotacion de arreglo");
+            Console.WriteLine("26 - Frecuencia de elementos");
+            Console.WriteLine("27 - Arreglo de temperaturas");
+            Console.WriteLine("28 - Matriz de notas por parcial");
+            Console.WriteLine("29 - Juego de gato");
+            Console.WriteLine("30 - Inventario simple");
             Console.WriteLine("0 - Salir");
             Console.WriteLine("Seleccione el ejercicio que desea ejecutar (0 para salir):");
 
             string opcion = Console.ReadLine();
+
+            Console.Clear(); // limpiar el menú antes de ejecutar la opción
 
             switch (opcion)
             {
@@ -44,7 +66,7 @@ class Program
                 case "12": Ejercicio12.Ejecutar(); break;
                 case "13": Ejercicio13.Ejecutar(); break;
                 case "14": Ejercicio14.Ejecutar(); break;
-               /* case "15": Ejercicio15.Ejecutar(); break;
+                case "15": Ejercicio15.Ejecutar(); break;
                 case "16": Ejercicio16.Ejecutar(); break;
                 case "17": Ejercicio17.Ejecutar(); break;
                 case "18": Ejercicio18.Ejecutar(); break;
@@ -59,11 +81,18 @@ class Program
                 case "27": Ejercicio27.Ejecutar(); break;
                 case "28": Ejercicio28.Ejecutar(); break;
                 case "29": Ejercicio29.Ejecutar(); break;
-                case "30": Ejercicio30.Ejecutar(); break; */
+                case "30": Ejercicio30.Ejecutar(); break; 
                 case "0": return;
                 default:
                     Console.WriteLine("Opción no válida");
                     break;
+            }
+
+            if (opcion != "0")
+            {
+                Console.WriteLine("\nPresione una tecla para volver al menú...");
+                Console.ReadKey(true);
+                Console.Clear(); // limpiar la pantalla antes de reimprimir el menú
             }
         }
     }
